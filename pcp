@@ -10,7 +10,7 @@ for idx in range(len(argv)):
  if fl[-4:]==".pcp":
   name=fl[:-4]
   temp=name
-  while not os.path.exists(temp):
+  while os.path.exists(temp):
    temp="_"+temp
   names+=[temp]
   argv[idx]="%s.c"%name
