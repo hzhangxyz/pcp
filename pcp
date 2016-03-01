@@ -10,7 +10,7 @@ for idx in range(len(argv)):
  if fl[-4:]==".pcp":
   name=fl[:-4]
   names+=[name]
-  argv[t]="%s.c"%name
+  argv[idx]="%s.c"%name
   os.system("php <%s.pcp >%s.c"%(name,name));
 
 os.system("gcc %s"%" ".join(argv[1:]))
