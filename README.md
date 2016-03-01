@@ -12,12 +12,14 @@ int main(){
     return 0;
 }
 ```
-## how to
+## Requirements
+php, gcc
+## How to
 ```
 php < test.pcp > test.c
 gcc test.c -o test.exe
 ```
-## note
+## Note
 ```
 short_open_tag = on
 ```
