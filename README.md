@@ -12,3 +12,7 @@ int main(){
     return 0;
 }
 ```
+## note
+```
+short_open_tag = on
+```
