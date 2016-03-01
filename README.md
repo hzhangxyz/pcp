@@ -1,7 +1,7 @@
 # CP
- C Language Preprocessor
+## C Language Preprocessor
 ---
- Combine c and php
+## Combine c and php
 ```
 <?php function repeat($var,$times,$src){echo "for($var=0;$var<$times;$var++)$src\n";}?>
 #include <stdio.h>
@@ -11,6 +11,11 @@ int main(){
     printf("%d\n",m);
     return 0;
 }
+```
+## how to
+```
+php < test.pcp > test.c
+gcc test.c -o test.exe
 ```
 ## note
 ```
