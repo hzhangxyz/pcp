@@ -3,9 +3,7 @@
 ---
  Combine c and php
 ```
-<?php
-repeat=function($var,$times,$src){echo "for($var=0;$var<$times;$var++)$src";}
-?>
+<?php function repeat($var,$times,$src){echo "for($var=0;$var<$times;$var++)$src\n";}?>
 #include <stdio.h>
 int main(){
     int i,m=0;
