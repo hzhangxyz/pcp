@@ -1,0 +1,19 @@
+#!/usr/bin/env python
+import os
+import sys
+
+argv=sys.argv
+names=[]
+
+for t in range(len(argv)):
+ i=argv[t]
+ if i[-4:]==".pcp":
+  name=i[:-4]
+  names+=[name]
+  argv[t]="%s.c"%name
+  os.system("php <%s.pcp >%s.c"%(name,name));
+
+os.system("gcc %s"%" ".join(argv[1:]))
+
+for i in names:
+ os.system("rm %s.c"%i)
