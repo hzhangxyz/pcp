@@ -13,7 +13,11 @@ int main(){
 }
 ```
 ## Requirements
-php, gcc
+```
+python
+php
+gcc
+```
 ## How to
 ```
 php < test.pcp > test.c
