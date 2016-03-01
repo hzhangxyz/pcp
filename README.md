@@ -26,7 +26,7 @@ gcc
 ## How to
 
 ```
-./pcp test.pcp -o test.exe
+./pcp test.pcp -o test
 ```
 
 ## Note
