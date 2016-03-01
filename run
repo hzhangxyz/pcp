@@ -1,6 +1,6 @@
 #!/bin/sh
-scr=`date "+%N"`.pcp
-exe=`date "+%N"`.out
+scr=./`date "+%N"`.pcp
+exe=./`date "+%N"`.exe
 cat >$scr
 ./pcp $scr -o $exe
 $exe
