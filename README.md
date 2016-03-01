@@ -15,18 +15,18 @@ int main(){
 }
 ```
 
+## How to
+
+```
+./pcp test.pcp -o test
+```
+
 ## Requirements
 
 ```
 python
 php
 gcc
-```
-
-## How to
-
-```
-./pcp test.pcp -o test
 ```
 
 ## Note
