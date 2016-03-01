@@ -10,8 +10,8 @@ for idx in range(len(argv)):
  if fl[-4:]==".pcp":
   name=fl[:-4]
   temp=name
-  while os.path.exists(temp):
-   temp="_"+temp
+  while os.path.exists("%s.c"%temp):
+   temp="_%s"%temp
   names+=[temp]
   argv[idx]="%s.c"%name
   os.system("php <%s.pcp >%s.c"%(name,names[-1]));
