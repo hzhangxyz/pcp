@@ -20,8 +20,7 @@ gcc
 ```
 ## How to
 ```
-php < test.pcp > test.c
-gcc test.c -o test.exe
+./pcp test.pcp -o test.exe
 ```
 ## Note
 ```
