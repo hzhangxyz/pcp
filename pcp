@@ -5,10 +5,10 @@ import sys
 argv=sys.argv
 names=[]
 
-for t in range(len(argv)):
- i=argv[t]
- if i[-4:]==".pcp":
-  name=i[:-4]
+for idx in range(len(argv)):
+ fl=argv[idx]
+ if fl[-4:]==".pcp":
+  name=fl[:-4]
   names+=[name]
   argv[t]="%s.c"%name
   os.system("php <%s.pcp >%s.c"%(name,name));
