@@ -1,6 +1,6 @@
 # PCP
 
-## C Language Preprocessor
+C Language Preprocessor
 
 ## Combine c and php
 
